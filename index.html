@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>hora de aventura</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Um dia desses, dentro de um livro da biblioteca da escola, eu descobri uma carta antiga sobre uma cidade perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!</p>
+            <button class="btn-proximo" data-proximo="1"> rio de janeiro
+                  </button>
+                  <button class="btn-proximo" data-proximo="2"> acre
+                </button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada no Rio de Janeiro, subindo o morro da Tijuca ao amanhecer para encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3"> procurar uma pista no topo do morro
+                  </button>
+                  <button class="btn-proximo" data-proximo="4"> desistir e voltar para casa
+                </button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>
+                então você segue viagem para o acre, o lugar que é mencionado no livro para descobrir os misterios que lá se escondem
+            </p>
+            <button class="btn-proximo" data-proximo="5"> continuar a sua viagem em busca de pistas
+            </button>
+            <button class="btn-proximo" data-proximo="6"> ir para a praia
+            </button>
+
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No topo do Pico da tijuca você encontra uma velha idosa, e voce esplica o seu plano de achar mais pistas, e ela dis para você seguir caminho para o sul </p>
+            <button class="btn-proximo" data-proximo="7">continuar para o sul
+            </button>
+    </div>
+
+    <div class="passo" id="passo-4">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria encontrado.</p>
+    </div>
+
+    <div class="passo" id="passo-5">
+            <p>Nas igrejas que você visitou, você acaba encontrando um mapa antigo escondido atrás de um altar, apontando que a próxima pista que está no sul.</p>
+            <button class="btn-proximo" data-proximo="7">viajar para casa pois a aventura não tem mais sentido</button>
+    </div>
+
+    <div class="passo" id="passo-6">
+            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar para casa</button>
+    </div>
+    <div class="passo" id="passo-7">
+        <p>.</p>
+        <button class="btn-proximo" data-proximo="8">você esta longe do sul e decide desistir</button>
+</div>
+    </main>   
+    <script src="script.js"></script>
+    </body>
+</html>
